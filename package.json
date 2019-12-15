@@ -1,12 +1,31 @@
 {
   "name": "testing-javascript",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "node": "^13.1.0",
+    "mocha": "^6.2.2",
+    "chai": "^4.2.0"
+  },
+  "dependencies": {
+    "random-array-index": "^1.1.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/john-rice/testing-javascript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/john-rice/testing-javascript/issues"
+  },
+  "homepage": "https://github.com/john-rice/testing-javascript#readme",
+  "description": ""
 }
